@@ -4001,3 +4001,45 @@ input::placeholder {
 .list-style-none {
   list-style-type: none;
 }
+
+@media (min-width: 992px) {
+  .login-container {
+    background: linear-gradient(90deg, #ffffff 60%, #e4e6e8 40%);
+    /* width: 100vh; */
+    height: 100vh;
+  }
+}
+
+.page-login {
+  height: 100vh;
+}
+
+.title-login {
+  font-weight: bold;
+  font-size: 50px;
+  text-align: left;
+  color: #1d1d1d;
+}
+
+.bg-signin {
+  background: url(../images/login-images/bg_right_login.jpg) no-repeat center
+    center fixed;
+  background-size: cover;
+}
+
+.card-login {
+  width: 350px;
+}
+
+/* .section-form-login {
+  margin-top: 25%;
+} */
+
+.bg-right-login {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
